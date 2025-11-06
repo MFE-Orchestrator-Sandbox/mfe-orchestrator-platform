@@ -8,10 +8,9 @@ export default defineConfig({
     react(),
     federation({
       name: 'app',
-      remotes: {
-        
-      ,
-            "salsa-di-caramello": "undefined/assets/remoteEntry.js"},
+      remotes: {,
+            "salsa-di-caramello": "undefined/assets/remoteEntry.js"
+        },
       shared: ['react','react-dom']
     })
   ],
