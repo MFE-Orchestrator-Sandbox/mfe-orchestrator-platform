@@ -8,8 +8,7 @@ export default defineConfig({
     react(),
     federation({
       name: 'app',
-      remotes: {,
-            "salsa-di-caramello": "undefined/assets/remoteEntry.js",
+      remotes: {
             "primomfe": "http://localhost:3000/serve/mfe/files/68b317ac75e6f0ceaab58b79/DEV/primo-mfe/assets/remoteEntry.js",
             "test01": "http://localhost:3000/serve/mfe/files/68b317ac75e6f0ceaab58b79/DEV/test-01/index.js",
             "fwfw": "http://localhost:3000/serve/mfe/files/68b317ac75e6f0ceaab58b79/DEV/fwfw/index.js",
