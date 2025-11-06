@@ -10,7 +10,8 @@ export default defineConfig({
       name: 'app',
       remotes: {
         
-      },
+      ,
+            "salsa-di-caramello": "undefined/assets/remoteEntry.js"},
       shared: ['react','react-dom']
     })
   ],
